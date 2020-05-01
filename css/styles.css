@@ -13,11 +13,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* horizontal line css style */
 hr{
-  border-color: #00a8cc;
   border-style: none;
   border-top: dotted;
   border-width: 10px;
   width: 50%;
+  border-color: #00a8cc;
 }
 /* Label CSS Style */
 label {
@@ -38,13 +38,6 @@ td {
 
 /****************************** Class Selectors ******************************/
 .profilepic {
-  border-color: #00a8cc;
-  border-radius: 100%;
-  border-style: solid;
-  border-width: 3px;
-}
-
-.funny {
   width: 200px;
   height: 200px;
   background: url("../images/jkp-cartoon.png") no-repeat;
@@ -54,7 +47,7 @@ td {
   border-width: 4px;
   border-radius: 100%;
 }
-.funny:hover {
+.profilepic:hover {
   background: url("../images/jkp-og.png") no-repeat;
   background-size: 200px;
 }
